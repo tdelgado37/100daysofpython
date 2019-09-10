@@ -9,7 +9,6 @@ tableData = [['apples', 'oranges', 'cherries', 'banana'],
 def printTable(tableData):
     colWidths = [0] * len(tableData)
     numRows = len(tableData[0])
-    lines = []
     for column_num, column in enumerate(tableData):
         for element in column:
             if(len(element)>colWidths[column_num]):
