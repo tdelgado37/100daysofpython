@@ -1,4 +1,4 @@
-#! python3
+#! python
 #strongPassword.py - tells if the inputed string is a strong strongPassword
 
 import re
